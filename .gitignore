@@ -1,0 +1,99 @@
+# Ignore build output
+[Bb]in/
+[Oo]bj/
+ 
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vscode/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/launch.json
+.vscode/settings.json
+ 
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+ 
+# Ignore build directories
+BuildArtifacts/
+**/bin
+**/obj
+
+TestResults/
+*.log
+# Ignore database files
+*.mdf
+*.ldf
+ 
+# Ignore Visual Studio Code workspace settings
+.vscode/
+ 
+# Ignore Rider specific files
+.idea/
+ 
+# Ignore dotnet specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+ 
+# Ignore temporary files, logs, and compile results
+*.tmp
+*.temp
+*.log
+*.pid
+*.pdb
+*.mdb
+*.opendb
+*.txt
+ 
+# Ignore Resharper files
+_ReSharper.Caches/
+ 
+# Ignore code coverage and test result files
+*.coverage
+*.coveragexml
+*.testresults
+ 
+# Ignore publish output
+publish/
+PublishProfiles/
+*.publishsettings
+ 
+# Ignore StyleCop
+StyleCop.Cache
+ 
+# Ignore JetBrains Rider .idea folder
+.idea/
+ 
+# Ignore Code Sniffer reports
+.phpcs-cache
+ 
+# Ignore Azure Functions local settings file
+local.settings.json
+ 
+# Ignore custom configuration
+appsettings.Development.json
+ 
+# Ignore Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+ 
+# Ignore macOS specific files
+.DS_Store
+ 
+# Ignore runtime generated files
+*.exe
+*.dll
+*.class
+*.war
+*.jar
+ 
+# Ignore database files
+*.mdf
+*.ldf
